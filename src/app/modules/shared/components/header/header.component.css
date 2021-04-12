@@ -1,0 +1,30 @@
+    .normal-header {
+        height: 5vh;
+        display: flex;
+        color: var(--primary);
+        font-size: 1.5rem;
+    }
+    
+    .site-title {
+        float: left;
+        text-transform: capitalize;
+        color: black;
+        margin-right: 4rem;
+        margin-left: 1rem;
+    }
+    
+    .site-navigation-links {
+        display: flex;
+        justify-content: space-around;
+        margin-left: 15rem;
+    }
+    
+    .site-navigation-links h4 {
+        padding: 1rem;
+        text-transform: capitalize;
+        cursor: pointer;
+    }
+    
+    .site-navigation-links h4:hover {
+        color: var(--default);
+    }

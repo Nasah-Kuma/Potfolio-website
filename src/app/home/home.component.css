@@ -1,0 +1,33 @@
+.main-body {
+    height: 150vh;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('../../assets/images/IMG_20201105_081742.jpg');
+    background-size: cover;
+    background-position: top;
+}
+
+.name-box,
+.discover-btn {
+    position: absolute;
+}
+
+.name-box {
+    top: 50%;
+    left: 60%;
+    color: black;
+}
+
+.discover-btn {
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+    background-color: var(--primary);
+    padding: 2rem;
+    top: 60%;
+    left: 65%;
+    color: var(--default);
+    text-align: left;
+    cursor: pointer;
+}
+
+.discover-btn:hover {
+    background-color: var(--secondary);
+    font-weight: bolder;
+}
